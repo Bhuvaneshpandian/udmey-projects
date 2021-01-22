@@ -1,0 +1,103 @@
+
+ *{
+    box-sizing: border-box;
+}
+ 
+
+ .currency{
+    padding: 10px 20px 10px 10px;
+    appearance: none;
+    font-size: 16px;
+    background: transparent;
+    
+   
+} 
+ div .swaprate {
+ display: flex ;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px 10px;
+    
+
+}
+div .rate {
+   
+    font-size: 20px;
+    padding: 10px 40px;
+    color: #06bdb3;
+    
+    
+}
+ 
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#ebebe0;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+     padding: 20px;
+    margin: 0;
+    
+}
+.image{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+
+  
+}
+
+
+h1{
+    font-weight: bold;
+    color: #06bdb3;
+    text-align: center;
+    
+}
+
+p{
+
+    text-align: center;
+    
+
+}
+
+
+.button{
+    
+    color:#fff;
+    background-color: #06bdb3 ;
+    cursor: pointer;
+    padding:  5px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+
+ 
+}
+
+ input{
+    
+     border: 0;
+     background: transparent;
+     font-size: 30px;
+     text-align: right;
+     
+     
+   
+  }
+
+
+select{
+    background-color:#ebebe0;
+    padding: 8px 8px;
+    border-radius: 5px;
+    border-color:  #6b6b47 ;
+    border-width: 1px;
+}
