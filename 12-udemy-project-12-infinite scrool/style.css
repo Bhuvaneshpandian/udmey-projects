@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+h2{
+text-align: center;
+color: azure;
+
+}
+
+body{
+    background-color: #1a8cff;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+
+
+.filter-container {
+  margin-top: 20px;
+  width: 80vw;
+  max-width: 800px;
+}
+
+.filter{
+
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+
+
+}
+
+ .post {
+    position: relative;
+    background-color: #1a8cff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 20px;
+    margin: 40px 0;
+    display: flex;
+    width: 80vw;
+    max-width: 800px;
+  }
+
+
+
+  
+
+
+  .post .number {
+
+  position: absolute;
+  top: -20px;
+  left: -15px;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+ background-color: cornsilk;
+ color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 10px;
+  }
+ 
+
+  
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; 
+  animation: spin 2s linear infinite;
+}
+
+.loader.show {
+  opacity: 1;
+}
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+ @keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
